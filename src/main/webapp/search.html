@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Guide App</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/d5635d350d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7f6d2012d0.js"></script>
+</head>
+<body>
+    <br>
+    <div class="header-link">
+        <span><a href="index.jsp"><i class="fa-solid fa-house fa-2xl" style="color: #ffffff;"></i></a></span>
+    </div>
+
+    <div class="container">
+        <div class="search-container">
+            <input type="text" placeholder="Enter movie name here..." id="movie-name" value="dark knight" />
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div id="result"></div>
+
+        <div id="favorites-popup" class="hidden">
+            <p id="popup-message"></p>
+            <button id="ok-btn">OK</button>
+            <button id="cancel-btn">Cancel</button>
+        </div>
+
+        <button id="show-favorites-btn">Show Favorites</button>
+    </div>
+
+    <div class="container hidden" id="favorites">
+        <h3>Favorites</h3>
+        <div id="favorites-list"></div>
+    </div>
+
+    <script src="key.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
