@@ -1,4 +1,5 @@
 # Movie-Library    
+![movie-library](https://github.com/kavyakavya12/Movie-Library/assets/109808086/ac63f39f-926f-4b74-8564-a42ec07af2fa)
 
 I have created a movie library system! Here, I pick the best movies for people to discover using the OMDb API. Users may even construct their own personalized playlists that include their favorite flicks. These playlists are publicly accessible.
 
@@ -20,3 +21,10 @@ Navigate to http://www.omdbapi.com/, the OMDb API website, and select the "API K
 Fill out the form with your name, email address, and the reason for your request to use the API. Choose whether you wish to use the API for commercial or personal reasons. Then click Submit.
 OMDb API will provide you your API key via email. at use the API key, add it at the end of the API endpoint URL.
 We should replace the URL with the search "s" parameter because we are looking for movies by title.
+
+# Demo
+
+
+
+https://github.com/kavyakavya12/Movie-Library/assets/109808086/7a6d89d7-a70a-4780-84cb-762c6754c490
+
