@@ -1,4 +1,4 @@
-# Movie-Library    
+# Movie-Library Management System 
 ![movie-library](https://github.com/kavyakavya12/Movie-Library/assets/109808086/ac63f39f-926f-4b74-8564-a42ec07af2fa)
 
 I have created a movie library system! Here, I pick the best movies for people to discover using the OMDb API. Users may even construct their own personalized playlists that include their favorite flicks. These playlists are publicly accessible.
