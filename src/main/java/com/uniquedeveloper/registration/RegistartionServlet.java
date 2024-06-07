@@ -70,7 +70,7 @@ public class RegistartionServlet extends HttpServlet {
 		}
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/movie","root","Bhavigna1!");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/movie","root","kavyakavya12");
 			PreparedStatement pst = con.prepareStatement("insert into users(uname,upwd,uemail,umobile) values(?,?,?,?)");
 			pst.setString(1, uname);
 			pst.setString(2, upwd);
